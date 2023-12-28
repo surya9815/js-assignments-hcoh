@@ -15,7 +15,7 @@
 
 
 function calculateTotalSpentByCategory(transactions) {
-  // This is a good exxercise
+  // This is a good exxercise brainy
   let result = []; 
   for (let t of transactions){
     let cat = t.category;
