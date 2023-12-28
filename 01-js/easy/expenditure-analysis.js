@@ -25,7 +25,6 @@ function calculateTotalSpentByCategory(transactions) {
     }else{
       result.push({'category': cat, 'totalSpent': price});
     }
-
   }
   return result;
 }
