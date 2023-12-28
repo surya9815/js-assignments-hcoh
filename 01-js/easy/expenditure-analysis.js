@@ -15,6 +15,7 @@
 
 
 function calculateTotalSpentByCategory(transactions) {
+  // This is a good exxercise
   let result = []; 
   for (let t of transactions){
     let cat = t.category;
@@ -26,6 +27,7 @@ function calculateTotalSpentByCategory(transactions) {
       result.push({'category': cat, 'totalSpent': price});
     }
   }
+
   return result;
 }
 
